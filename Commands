@@ -3,3 +3,21 @@ If you type cd and press the Return key—with no directory specified—you’ll
 If you type cd /, you’ll go to the root level of your startup disk.
 If you type cd .. (that’s two periods), you’ll go to the directory above the one you’re currently in. So if you’re in your home folder, and type cd .., you’ll go to your Mac’s /Users folder.
 And if you type cd - (hyphen) you’ll go back to the directory you were in before the last time you issued the cd command.
+
+--> ls  
+// it is used to list all the files in your particular directory.
+--> ls -la 
+// it is used to list all the hidden files in that directory.
+
+--> make (file_name, without extension)
+// creates a temp. file that you can run in the terminal.
+--> ./(file name, without extension)
+// this command runs your file in the terminal.
+--> rm (file name)
+// it is used to remove that temp. file created in your terminal.
+
+// Everytime you make a change in the file you'll have to recompile (use --> make ,command) and then re-run the file to reflect 
+chnages.
+
+creating a new file while in terminal-
+--> echo> "file_name.extension"
