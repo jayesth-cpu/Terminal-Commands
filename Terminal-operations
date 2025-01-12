@@ -1,0 +1,74 @@
+File Operations
+
+Navigation
+
+pwd: Print working directory.
+ls: List directory contents (-l for long format, -a for all files).
+cd <directory>: Change directory.
+cd: Go to home directory.
+cd ..: Move up one directory.
+File & Directory Manipulation
+
+mkdir <directory_name>: Create a directory.
+touch <file_name>: Create an empty file.
+cp <source> <destination>: Copy files or directories (-r for recursive directory copy).
+mv <source> <destination>: Move or rename files or directories.
+rm <file_name>: Remove a file (-r for recursive directory removal, -i for interactive deletion).
+Viewing & Editing
+
+cat <file_name>: Display file contents.
+less <file_name>: View a file page by page.
+head <file_name>: Display the first 10 lines.
+tail <file_name>: Display the last 10 lines.
+nano <file_name> / vim <file_name> / emacs <file_name>: Open a file in a text editor.
+Git Commands
+
+Configuration
+
+git config --global user.name "Your Name": Set your name.
+git config --global user.email "your_email@example.com": Set your email.
+Repository Setup
+
+git init: Initialize a new repository.
+git clone <repository_url>: Clone a remote repository.
+Making Changes
+
+git add <file>: Stage a file.
+git add .: Stage all changes.
+git commit -m "Commit message": Commit changes.
+git status: Check the status of changes.
+git diff: View changes.
+Branches
+
+git branch: List branches.
+git branch <branch_name>: Create a branch.
+git checkout <branch_name>: Switch branches.
+git merge <branch_name>: Merge a branch.
+Remotes
+
+git remote add origin <repository_url>: Add a remote.
+git push -u origin <branch_name>: Push changes.
+git pull origin <branch_name>: Pull changes.
+Undoing Changes
+
+git checkout -- <file>: Discard changes in a file.
+git reset HEAD <file>: Unstage a file.
+git revert <commit_hash>: Revert a commit.
+GitHub Commands (web/CLI)
+
+Repository
+
+Create a new repository on GitHub.com.
+Fork a repository on GitHub.com.
+Collaboration
+
+Create a pull request on GitHub.com.
+Manage issues on GitHub.com.
+Important Notes
+
+.gitignore: Create a .gitignore file to exclude files from tracking.
+git log: View commit history.
+git help <command>: Get help with a Git command.
+Case-sensitivity: Commands and filenames are case-sensitive.
+Wildcards: Use * and ? for pattern matching.
+Caution with rm -rf: It permanently deletes files/directories.
